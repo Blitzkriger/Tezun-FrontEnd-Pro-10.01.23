@@ -71,4 +71,6 @@ if (userCityLiving == 'Киев' && userFavoriteSport == 'Формула 1') {
 
     }
 
+    alert(`Твой возраст ${userAge}, ты живешь в городе ${userCityLiving}. Круто! Но я не знаю такого вида спорта`);
+
 }
