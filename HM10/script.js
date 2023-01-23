@@ -41,7 +41,6 @@ let sum = 0;
 
 for (let i = 1; i <=15; i++) {
   sum = sum + i;
-  console.log(sum);
 }
 
 console.log(sum);
@@ -54,7 +53,6 @@ let multi = 1;
 
 for (let i = 15; i <=35; i++) {
   multi = multi * i;
-  console.log(multi);
 }
 
 console.log(multi);
@@ -81,7 +79,6 @@ let pair = 0;
 for (let i = 30; i <= 80; i++) {
   if (i % 2 === 0) {
     pair = pair + i;
-    console.log(pair);
   }
 }
 console.log(pair);
@@ -98,7 +95,6 @@ for (let i = 100; i <= 200; i++) {
     console.log(multiplicityOf);
   }
 }
-console.log(multiplicityOf);
 
 console.log(' ');
 
