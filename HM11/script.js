@@ -5,7 +5,7 @@ let enumeration = '';
 for (let i = 20; i <= 30; i = i + 0.5) {
 
   enumeration =  enumeration + i + ' ';
-  
+
 }
 
 console.log(enumeration.trim());
@@ -28,7 +28,7 @@ console.log(' ');
 
 // 3.Дане ціле число. Вивести всі цілі числа від 1 до 100, квадрат яких не перевищує числа N.
 
-let number = 170;
+let number = 70;
 let squareNumber = '';
 
 for (let i = 1; i <= 100; i++) {
