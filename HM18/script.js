@@ -2,7 +2,7 @@
 
 const array = ['q','w','e','r','t','y',1,2,3,4,5,6,7,8,9];
 
-function avarage() {
+function avarage(arr) {
 
   let numbers = array.filter(number => {
     if (!isNaN(number)) {
@@ -20,7 +20,7 @@ function avarage() {
   return total / numbers.length
 }
 
-let result = avarage();
+let result = avarage(array);
 console.log(result)
 
 // 2.Написати функцію doMath(x, znak, y), яка отримує 3 аргументи: числа x і y, рядок znak. У змінній znak може бути: +, -, *, /, %, ^ (ступінь ).Вивести результат математичної дії, вказаної в змінній znak.Обидва числа і знак виходять від користувача.
@@ -34,19 +34,26 @@ function doMath(x,znak,y) {
 
   let result;
 
-  if (znak === '+') {
-    result = x + y
-  } else if (znak === '-') {
-    result = x - y
-  } else if (znak === '*') {
-    result = x * y
-  } else if (znak === '/') {
-    result = x / y
-  } else if (znak === '%') {
-    result = x % y
-  } else if (znak === '^') {
-    result = x ** y
-  }
+  switch (znak) {
+    case '+':
+      result = x + y;
+      break;
+    case '-':
+      result = x - y;
+      break;
+    case '*':
+      result = x * y;
+      break;
+    case '/':
+      result = x / y;
+      break;  
+    case '%':
+      result = x % y;
+      break;
+    case '^':
+      result = x ** y;
+      break;    
+}
   return result;
 }
 
@@ -73,7 +80,7 @@ function arrAdd() {
   console.log(arr);
 }
 
-let functionResult = arrAdd();
+arrAdd();
 
 // 4.Створити функцію, яка прибирає з рядка всі символи, які ми передали другим аргументом. 'func(" hello world", ['l', 'd'])' поверне нам "heo wor". Вихідний рядок та символи для видалення задає користувач.
 
