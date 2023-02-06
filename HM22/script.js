@@ -52,7 +52,7 @@ getData().then((posts) => {
 
 // SORTING FUNCTION BY ID (post.id)
 const sortById = (posts) => {
-  return posts.sort((a, b) => (posts === posts.id ? b.id - a.id : a.id - b.id));
+  return posts.sort((a, b) => (posts === 'posts.id' ? b.id - a.id : a.id - b.id));
 };
 
 // SORTING FUNCTION BY LENGTH (post.body.length)
