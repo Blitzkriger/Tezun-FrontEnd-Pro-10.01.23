@@ -1,6 +1,6 @@
 function getSum() {
   let sum = 0 
-  return function(num) {
+  return function add(num) {
     sum += num
     console.log(sum)
     return sum
