@@ -48,8 +48,6 @@ getData().then((posts) => {
   );
 });
 
-// YOUR CODE UNDER THE COMMENT
-
 // SORTING FUNCTION BY ID (post.id)
 const sortById = (posts) => {
   return posts.sort((a, b) => (posts === 'posts.id' ? b.id - a.id : a.id - b.id));
@@ -58,5 +56,4 @@ const sortById = (posts) => {
 // SORTING FUNCTION BY LENGTH (post.body.length)
 const sortByCommentLength = (posts) => {
   return posts.sort((a, b) => (posts === 'posts.body.length' ? b.body.length - a.body.length : a.body.length - b.body.length));
-  // YOUR CODE HERE
 }
