@@ -50,10 +50,10 @@ getData().then((posts) => {
 
 // SORTING FUNCTION BY ID (post.id)
 const sortById = (posts) => {
-  return posts.sort((a, b) => (posts === 'posts.id' ? b.id - a.id : a.id - b.id));
+  return posts.sort((a, b) => (a.id - b.id));
 };
 
 // SORTING FUNCTION BY LENGTH (post.body.length)
 const sortByCommentLength = (posts) => {
-  return posts.sort((a, b) => (posts === 'posts.body.length' ? b.body.length - a.body.length : a.body.length - b.body.length));
+  return posts.sort((a, b) => (a.body.length - b.body.length));
 }
