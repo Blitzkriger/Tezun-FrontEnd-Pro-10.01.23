@@ -3,7 +3,7 @@
 function greetUser() {
   const name = prompt('Как вас зовут?', 'Денис');
   const time = prompt('Через какое время хотите получить приветствие?(сек,мин,час)');
-  let timeInSeconds = 0;
+  let timeInSeconds;
   if (time.includes('сек')) {
       timeInSeconds = parseInt(time);
   } else if (time.includes('мин')) {
@@ -44,7 +44,7 @@ function jsonStringAction(str) {
   }
 }
 
-const res3 = jsonStringAction(JSON.stringify({a: 1}))
-console.log(res3)
+const res3 = jsonStringAction(JSON.stringify({a: 1}));
+console.log(res3);
 const res4 = jsonStringAction({a: 1});
-console.log(res4)
+console.log(res4);
