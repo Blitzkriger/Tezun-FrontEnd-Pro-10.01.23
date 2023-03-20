@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.hidden-layer {
+    width: 100px;
+    height: 100px;
+    background-color: #000;
+    position: absolute;
+    left: 14%;
+}
