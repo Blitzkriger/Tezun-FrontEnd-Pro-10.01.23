@@ -1,0 +1,133 @@
+.container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.categories, .items, .info {
+	flex: 1;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.categories {
+	background-color: #f2f2f2;
+}
+
+.categories h2, .items h2, .info h2 {
+	margin-top: 0;
+}
+
+.categories ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.categories li {
+	margin-bottom: 10px;
+}
+
+.categories a {
+	text-decoration: none;
+	color: #333;
+}
+
+.categories a:hover {
+	color: #000;
+}
+
+.items ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.items li {
+	margin-bottom: 10px;
+}
+
+.items a {
+	text-decoration: none;
+	color: #333;
+}
+
+.items a:hover {
+	color: #000;
+}
+
+.info {
+	background-color: #f2f2f2;
+}
+
+.info p {
+	margin-top: 0;
+}
+
+.info button {
+	background-color: #4CAF50;
+	color: white;
+	padding: 10px;
+	border: none;
+	cursor: pointer;
+}
+
+.info button:hover {
+	background-color: #3e8e41;
+}
+
+form {
+	max-width: 300px;
+	margin: 0 auto;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);	
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+
+input[type="number"],
+textarea {
+	width: 288px;
+	padding: 5px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+}
+
+select {
+	width: 300px;
+	padding: 5px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+}
+
+input[type="radio"] {
+	margin-right: 10px;
+}
+
+button[type="submit"] {
+	background-color: #4CAF50;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+button[type="submit"]:hover {
+	background-color: #3e8e41;
+}
+
+.input-field {
+	width: 288px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 5px;
+}
