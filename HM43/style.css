@@ -175,3 +175,15 @@ button[type="submit"]:hover {
 	border-radius: 5px;
 	padding: 5px;
 }
+
+table {
+	border: 1px solid black;
+  }
+
+tr {
+	border: 1px solid black;
+}
+
+td {
+	border: 1px solid black;
+}
