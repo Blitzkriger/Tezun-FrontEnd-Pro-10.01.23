@@ -1,0 +1,34 @@
+body {
+	font-family: 'Comic Sans Ms';
+}
+
+#search-btn {
+	border-radius: 5px;
+	border: none;
+	background-color: rgb(185, 190, 188);
+	padding: 3px;
+	cursor: pointer;
+}
+
+#search-btn:hover {
+	opacity: 0.8;
+}
+
+input {
+	outline: none;
+	border-radius: 5px;
+	border: 1px solid rgb(185, 190, 188);
+	color: rgb(77, 77, 77);
+}
+
+#comments-btn {
+	border-radius: 5px;
+	border: none;
+	background-color: rgb(185, 190, 188);
+	padding: 3px;
+	cursor: pointer;
+}
+
+#comments-btn:hover {
+	opacity: 0.8;
+}
