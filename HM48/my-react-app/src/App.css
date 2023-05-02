@@ -1,0 +1,35 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.App-header {
+  background-color: #282c34;
+  color: white;
+  padding: 20px;
+}
+
+.App-content {
+  display: flex;
+  flex: 1;
+}
+
+.App-nav {
+  background-color: #f0f0f0;
+  padding: 20px;
+  width: 200px;
+}
+
+.App-link {
+  cursor: pointer;
+}
+
+.App-link:hover {
+  opacity: 0.5;
+}
+
+.App-main {
+  flex: 1;
+  padding: 20px;
+} 
