@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.emoji-voting {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.emoji-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 2rem;
+}
+
+.emoji-btn {
+  font-size: 1.5rem;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+
+.emoji-btn:hover {
+  background-color: #e6e6e6;
+  border-color: #999;
+}
+
+.show-results-btn {
+  font-size: 1rem;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+
+.show-results-btn:hover {
+  background-color: #45a049;
+}
+
